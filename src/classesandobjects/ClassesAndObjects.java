@@ -4,6 +4,7 @@
  */
 package classesandobjects;
 
+import shapes.Rectangle;
 import shapes.Triangle;
 
 /**
@@ -43,6 +44,10 @@ public class ClassesAndObjects {
         sideLenghts [16] = 3;
         
         //we want to set the middle side of each triagle to be 3
+        
+        Rectangle rect1 = new Rectangle();
+        System.out.println(rect1.getArea());
+        
         
     }
     
